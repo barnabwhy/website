@@ -34,7 +34,7 @@ body {
 }
 a {
     text-decoration: none;
-    color: #F98B8B
+    color: #F98B8B;
 }
 a:hover {
     color: #FA9E9E;
@@ -70,6 +70,10 @@ img {
   text-indent: -32px;
 }
 
-span {
+.blue {
   color: #5C95FF;
+}
+
+.nobr-spans > span {
+    white-space: nowrap;
 }
